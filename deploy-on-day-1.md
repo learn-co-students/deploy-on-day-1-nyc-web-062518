@@ -5,7 +5,8 @@ You will be working in a team of 4 people.  At the end of the project, you'll ha
 
 ## Deliverable:
 
-Ideally we'd like a git repo on github that we can clone and view your profile page as a local static file in a web browser. However, any method you can think of to get us the files so that we can open and view is a win.
+1. yourprofile.html with a layout and content.
+2. A branch named `yourname-profile` along with a pull request to merge your branch into `master`. If you'd like to make things easier, you can also have a team branch `teamname-profiles` and just one pull request to merge that branch into `master`.
 
 ## FAQ
 
@@ -18,14 +19,15 @@ Ideally we'd like a git repo on github that we can clone and view your profile p
 - Do I need to change the index page?
   - The styles shouldn't change, the content of the HTML should
 
-You can use the following link as a reference [students index](http://static.001.students.flatironschool.com/index.html)
+You can use the following link as a reference [students index](http://static.001.students.flatironschool.com/index.html) (or from [last semester](http://static.002.students.flatironschool.com/) 
+
 Check out different students profiles, be creative, and don't copy exactly.
 Please read/skim this whole document before starting. Here's a few helpful tips...
 
-- You'll have ~2hrs to complete this.
+- You'll have ~3hrs to complete this.
 - If you feel stuck, ask for help.
 - Don't get bogged down in git!
-  - During this project we'd like you to become familiar with rebase, clone, pull, fetch, push but not all are required or expected.
+  - During this project we'd like you to become familiar with clone, pull, branch, checkout, and push but not all are required or expected.
   - Keep in mind everyone in the class will be pushing to the same repository.  Think about using a workflow with your teammates that will minimize conflicts.
 - Many of you will want to know the right way to do it.
 - However your team decides they want to tackle things is the right way to do it.
