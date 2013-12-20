@@ -1,3 +1,8 @@
+---
+  tags: deploy, team, git, pull request
+  languages: html, css
+---
+
 ## Goal:
 
 To add yourself to the student section of the FlatironSchool.com and create your profile page.
