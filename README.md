@@ -2,21 +2,22 @@
   tags: deploy, team, git, pull request
   languages: html, css
 ---
+#:confetti_ball: :bowtie: Welcome to Flatiron School! :tada: :fireworks:
+
 # Deploy on Day One!
 
 ### Skills: HTML, CSS, Git, deploying
 
 ## Instructions
 
-:confetti_ball: :bowtie: Welcome to Flatiron School! :tada: :fireworks:
+Here is your first assignment! You're going to add yourself to the student section of [FlatironSchool.com](http://students.flatironschool.com) and create your own [profile](http://students.flatironschool.com/students/tiffany_peon_profile.html) page. 
 
-Add yourself to the student section of the FlatironSchool.com and create your profile page.
 You will be working in a team of 4 people.  At the end of the project, you'll have 4 new html files in the students directory one for each student.
 
 ## Deliverable:
 
 1. yourprofile.html with a layout and content.
-2. A branch named `yourname-profile` along with a pull request to merge your branch into `master`. If you'd like to make things easier, you can also have a team branch `teamname-profiles` and just one pull request to merge that branch into `master`.
+2. A git branch named `yourname-profile` along with a pull request to merge your branch into `master`. If you'd like to make things easier, you can also have a team branch `teamname-profiles` and just one pull request to merge that branch into `master`.
 
 ## FAQ
 
@@ -29,7 +30,7 @@ You will be working in a team of 4 people.  At the end of the project, you'll ha
 - Do I need to change the index page?
   - The styles shouldn't change, the content of the HTML should
 
-You can use the following link as a reference [students index](http://static.001.students.flatironschool.com/index.html) (or from [last semester](http://static.002.students.flatironschool.com/) 
+You can use the following link as a reference [students index](http://students.flatironschool.com/)
 
 Check out different students profiles, be creative, and don't copy exactly.
 Please read/skim this whole document before starting. Here's a few helpful tips...
@@ -39,8 +40,7 @@ Please read/skim this whole document before starting. Here's a few helpful tips.
 - Don't get bogged down in git!
   - During this project we'd like you to become familiar with clone, pull, branch, checkout, and push but not all are required or expected.
   - Keep in mind everyone in the class will be pushing to the same repository.  Think about using a workflow with your teammates that will minimize conflicts.
-- Many of you will want to know the right way to do it.
-- However your team decides they want to tackle things is the right way to do it.
+- Many of you will want to know the right way to do it, but However your team decides they want to tackle things is the right way to do it.
 - Types of questions you'll probably want to ask that we'd like you to decide with your group.
   - Should each member of the group have their own stylesheet or all share one?
   - Should we all work on one computer or each do our own and use git to manage merging our work together?
@@ -52,7 +52,10 @@ Please read/skim this whole document before starting. Here's a few helpful tips.
 
 Note: Anywhere you see "yourname" please don't literally type this, please insert your actual name
 - Clone the students website to your code directory.
-  - ```git clone git@github.com:flatiron-school/003.students.flatironschool.com.git```
+  - 
+  ```bash
+  git clone git@github.com:flatiron-school-students/004.students.flatironschool.com.git
+  ```
 - cd into the directory you just cloned
 - Create a feature branch for your profile
   - ```git checkout -b add-profile-yourname```
