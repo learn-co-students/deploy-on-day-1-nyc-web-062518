@@ -48,15 +48,13 @@ Please read/skim this whole document before starting. Here's a few helpful tips.
 - The most important things are getting something working and learning to work as a team. There really are no wrong answers.
 - Have fun with your new best friends!
 
-## Steps:
+## Steps
 
 Note: Anywhere you see "yourname" please don't literally type this, please insert your actual name
 - Clone the students website to your code directory.
-  - 
-  ```bash
-  git clone git@github.com:flatiron-school-students/004.students.flatironschool.com.git
-  ```
+  - `git clone git@github.com:flatiron-school-students/004.students.flatironschool.com.git`
 - cd into the directory you just cloned
+  - `cd 004.students.flatironschool.com.git`
 - Create a feature branch for your profile
   - ```git checkout -b add-profile-yourname```
 - Create your profile page within the students directory and name it yourname.html
@@ -74,11 +72,31 @@ Create a pull request to merge your feature branch
   - This brings you to a screen where the left side is the place you're submitting the request to (flatironschool the master branch)
   - The right side of the screen is the branch and repo you are submitting from.  So you should select your branch which will take you to the pull request screen.  Fill in some details and submit the request.  Note you can @aviflombaum in the comment of your request to automatically let avi know you submitted the pull request.
 
-Git workflow tutorials you can check out.  Don't get bogged down in Git!
+## Profile requirements
+
+Please collect the following content for your profiles. This content doesn't have to be finalized, but you need something. You'll be using this content as it evolves for your resume and other profiles online, including the student site. If you have the data in an easy to use / read / copy text file, it makes putting it in different mediums easier.
+
+- Your Name
+- Github Username
+- Blog Url (if you don't already have a blog it will be githubusername.github.io)
+- Tagline
+- Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
+- Treehouse Account
+- CoderWall Account
+- CodeSchool Account
+- Favorite Websites
+- Previous Work Experience
+- Short Bio
+- Twitter URL
+- LinkedIn URL
+- Education
+
+You can submit this via a GIST URL.
+
+For example: https://gist.github.com/aviflombaum/015ee85d38e9009e012f
 
 ## Resources
-- http://static.001.students.flatironschool.com/index.html
-- http://static.002.students.flatironschool.com/index.html
+Here are some Git workflow tutorials you can check out.  Don't get bogged down in Git!
 
 - http://scottchacon.com/2011/08/31/github-flow.html
 
