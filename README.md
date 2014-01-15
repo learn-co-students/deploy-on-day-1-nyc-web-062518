@@ -2,7 +2,7 @@
   tags: deploy, team, git, pull request
   languages: html, css
 ---
-#:confetti_ball: :bowtie: Welcome to Flatiron School! :tada: :fireworks:
+#:confetti_ball: :bowtie: Welcome to The Flatiron School! :tada: :fireworks:
 
 # Deploy on Day One!
 
