@@ -68,7 +68,7 @@ Note: Anywhere you see "yourname" please don't literally type this, please inser
     - Note: localbranchname should be add-profile-yourname
 
 Create a pull request to merge your feature branch
-  - Go to https://github.com/flatiron-school/004.students.flatironschool.com and click on the pull request button
+  - Go to https://github.com/flatiron-school-students/004.students.flatironschool.com and click on the pull request button
   - This brings you to a screen where the left side is the place you're submitting the request to (flatironschool the master branch)
   - The right side of the screen is the branch and repo you are submitting from.  So you should select your branch which will take you to the pull request screen.  Fill in some details and submit the request.  Note you can @aviflombaum in the comment of your request to automatically let avi know you submitted the pull request.
 
