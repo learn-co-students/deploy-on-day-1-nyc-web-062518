@@ -39,7 +39,7 @@ Please read/skim this whole document before starting. Here's a few helpful tips.
 - If you feel stuck, ask for help.
 - Don't get bogged down in git!
   - During this project we'd like you to become familiar with clone, pull, branch, checkout, and push but not all are required or expected.
-  - Keep in mind everyone in the class will be pushing to the same repository.  Think about using a workflow with your teammates that will minimize conflicts.
+  - **Keep in mind everyone in the class will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
 - Many of you will want to know the right way to do it, but However your team decides they want to tackle things is the right way to do it.
 - Types of questions you'll probably want to ask that we'd like you to decide with your group.
   - Should each member of the group have their own stylesheet or all share one?
@@ -68,13 +68,13 @@ Note: Anywhere you see "yourname" please don't literally type this, please inser
     - Note: localbranchname should be add-profile-yourname
 
 Create a pull request to merge your feature branch
-  - Go to https://github.com/flatiron-school/003.students.flatironschool.com and click on the pull request button
+  - Go to https://github.com/flatiron-school/004.students.flatironschool.com and click on the pull request button
   - This brings you to a screen where the left side is the place you're submitting the request to (flatironschool the master branch)
   - The right side of the screen is the branch and repo you are submitting from.  So you should select your branch which will take you to the pull request screen.  Fill in some details and submit the request.  Note you can @aviflombaum in the comment of your request to automatically let avi know you submitted the pull request.
 
 ## Profile requirements
 
-Please collect the following content for your profiles. This content doesn't have to be finalized, but you need something. You'll be using this content as it evolves for your resume and other profiles online, including the student site. If you have the data in an easy to use / read / copy text file, it makes putting it in different mediums easier.
+Please collect the following content for your profiles. This content doesn't have to be finalized, but you need something. You'll be using this content as the project evolves for your resume and other profiles online, including the student site. If you have the data in an easy to use / read / copy text file, it makes putting it in different mediums easier.
 
 - Your Name
 - Github Username
@@ -107,3 +107,19 @@ Here are some Git workflow tutorials you can check out.  Don't get bogged down i
 - http://zachholman.com/talk/how-github-uses-github-to-build-github
 
 - https://openshift.redhat.com/community/wiki/github-workflow-for-submitting-pull-requests
+
+## Issues
+
+A common issue is not being able to authenticate with github. You need to use https/ssh correctly when cloning the repository in order to be authenticated with github. Checkout and follow:
+
+- [setup git](https://help.github.com/articles/set-up-git)
+- [https cloning errors](https://help.github.com/articles/https-cloning-errors)
+- [setting up ssh](https://help.github.com/articles/generating-ssh-keys)
+
+## A note about `master` branch
+
+The `master` branch of a project is NEVER a place to do any work. `master` is considered the build and you never break the build. So make sure you are not working or committing to the `master` branch.
+
+**We highly recommend getting ssh setup correctly**
+
+### Good luck and have fun!
