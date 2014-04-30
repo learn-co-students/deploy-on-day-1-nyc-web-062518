@@ -54,7 +54,7 @@ Note: Anywhere you see "yourname" please don't literally type this, please inser
 - Clone the students website to your code directory.
   - `git clone git@github.com:flatiron-school-students/004.students.flatironschool.com.git`
 - cd into the directory you just cloned
-  - `cd 004.students.flatironschool.com.git`
+  - `cd 004.students.flatironschool.com`
 - Create a feature branch for your profile
   - ```git checkout -b add-profile-yourname```
 - Create your profile page within the students directory and name it yourname.html
