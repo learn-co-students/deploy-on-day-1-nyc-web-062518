@@ -6,6 +6,16 @@
 
 # Deploy on Day One
 
+## Contents
+
+|Section                          |
+|---------------------------------|
+|History(#history)                |
+|Assignment(#assignment)          |
+|File Structure(#structure)       |
+|Getting Started(#getting-started)|
+|Next Steps(#next-steps)          |
+
 ## History
 
 Welcome to Flatiron! Every semester, a student index page is created. It looks something like [this](http://students.flatironschool.com/). Links from this page go to individual profiles, which look like [this](http://students.flatironschool.com/students/lauraconwill.html).
@@ -15,6 +25,8 @@ Welcome to Flatiron! Every semester, a student index page is created. It looks s
 Your assignment is to create a student profile for someone sitting at your table. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else. If you're sitting at a table of four, it might be easiest to pair up. If you're sitting at a table of three, it might be easiest to create the profile of the student clockwise to you. If you're sitting at a...well you get the picture.
 
 Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" The answer is no. You're just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. No need to freak out. Calm down! Seriously, you're making the rest of us nervous!!!
+
+You'll have about three hours to complete the first section of this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
 
 ## Structure
 
@@ -65,7 +77,7 @@ The structure of this project looks something like this:
 
 * Now that you have the repo, you'll want to get into it. 
   * Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? When you type `pwd` into your terminal and the last part of the text that gets returned is `deploy-on-day-1...` you're in the right place.
-  * ***NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.***
+  * **NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.**
 
 * Take a look at `index.html` and `students/student_name.html` in the browser.
   * You can do this many ways but one is by opening finder and right clicking on index.html, for example. Then click on "Open with" then the name of your favorite browser.
@@ -93,51 +105,51 @@ The structure of this project looks something like this:
 
 * You'll want to [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files) then [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes) these changes with a message.
 
-* Once you have added and commited properly, when you type `git status`, you should see "nothing to commit, working directory clean"
+* If you type `git status`, you should see "nothing to commit, working directory clean". If you type `git remote -v`, it should display something like:
+
+|remote | url                                                               |         |
+|-------|-------------------------------------------------------------------|---------|
+|origin |https://github.com/table-member's-github-name/deploy-on-day-1...git| (fetch) |
+|origin |https://github.com/table-member's-github-name/deploy-on-day-1...git| (push)  |
 
 
-Please read/skim this whole document before starting. Here's a few helpful tips...
+* Now it's time to [push](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes) to a remote branch. This remote branch doesn't exist yet, you're going to create it by pushing. 
+  * **NOTE: Do not push to master. Do not type anything that contains the word master!**
+  * You're going to push to a branch that is the same name as your local branch.
+    * For instance, if we're on the branch zoe-perez, we're going to push to zoe-perez.
 
-- You'll have ~3hrs to complete this.
-- If you feel stuck, ask for help.
-- Don't get bogged down in git!
-  - During this project we'd like you to become familiar with clone, pull, branch, checkout, and push but not all are required or expected.
-  - **Keep in mind everyone in the class will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
-- Many of you will want to know the right way to do it, but However your team decides they want to tackle things is the right way to do it.
-- Types of questions you'll probably want to ask that we'd like you to decide with your group.
-  - Should each member of the group have their own stylesheet or all share one?
-  - Should we all work on one computer or each do our own and use git to manage merging our work together?
-  - How do we put all our changes into one repository?
-- The most important things are getting something working and learning to work as a team. There really are no wrong answers.
-- Have fun with your new best friends!
 
-## Steps
+* To confirm this push worked you can do two things:
 
-Note: Anywhere you see "yourname" please don't literally type this, please insert your actual name
-- Clone the students website to your code directory.
-  - `git clone git@github.com:flatiron-school-students/004.students.flatironschool.com.git`
-- cd into the directory you just cloned
-  - `cd 004.students.flatironschool.com`
-- Create a feature branch for your profile
-  - ```git checkout -b add-profile-yourname```
-- Create your profile page within the students directory and name it yourname.html
-  - ```touch students/yourname.html```
-  - open the html in your favorite text editor and make your profile!
-- Add it, commit, push
-    - ```git add .```
-    - ```git commit -m "Add profile for yourname"```
-    - ```git push origin localbranchname```
-    - To confirm this worked you can do ```git branch -a``` which will show the remote branch on github.com you just created when you pushed
-    - Note: localbranchname should be add-profile-yourname
+  * Type ```git branch -a``` which will show the remote branch on github.com you just created when you pushed. 
+  * ![branches](/img/branches.png)
+  * You could also go to the url of the forked repo. Notice the section that says "branch:master ▼". You should be able to click on that and select the name of the branch you've been working on from the dropdown.
 
-Create a pull request to merge your feature branch
-  - Go to https://github.com/flatiron-school-students/004.students.flatironschool.com and click on the pull request button
-  - This brings you to a screen where the left side is the place you're submitting the request to (flatironschool the master branch)
-  - The right side of the screen is the branch and repo you are submitting from.  So you should select your branch which will take you to the pull request screen.  Fill in some details and submit the request.  Note you can @aviflombaum in the comment of your request to automatically let avi know you submitted the pull request.
+## Next Steps
+
+** IMPORTANT: Make sure that you attend the lecture on Git in the afternoon before continuing **
+
+### Group Logistics
+
+Since your table is going to submit a pull request with all of your tables profiles, you'll need to merge every branch that your table created into a single branch. This branch will contain every profile from your table. The process of merging these branches will probably result in merge conflicts in `index.html` and possibly elsewhere. That's totally okay and expected!
+
+Think about the best way to merge all the branches together. Should one person do it? Should everyone do it in order? Should you merge into a prexisting branch, like `master`, or create a totally new branch? You might be wondering what the best answer is but there isn't a "best answer", just decide on a strategy and go for it!
+
+### Merge Conflicts
+
+![branches](/img/branches.png)
+Once every profile is on a single branch that is hosted remotely, it's time to submit a pull request on the original repo. 
+* The first step is to go to the forked repo. 
+* The next step is to navigate to the branch with all three or four profiles. You can do this by clicking on the "branch:master ▼" dropdown and select the name of the branch that has all the profiles. 
+* From this new view, click on ![pull request](/img/pull-request.png) on the right-hand menu. The green button with two arrows that looks like this ![green pull request](/img/green-button.png) will also work.
+* On this new page, click the green button that says "New pull request". This will take you to a form.
+Fill out the form and click "Submit".
+
+Congratulations, you've completed your first Flatiron Assignment. From now on, most assignments will be completed in a group but submitted individually instead of having a table fork an assignment, each student will fork the assignment. This will minimize the merge conflicts.
 
 ## Profile requirements
 
-Please collect the following content for your profiles. This content doesn't have to be finalized, but you need something. You'll be using this content as the project evolves for your resume and other profiles online, including the student site. If you have the data in an easy to use / read / copy text file, it makes putting it in different mediums easier.
+Please collect the following content from your assigned student for their profile. This content doesn't have to be finalized, but you need something. They'll be using this content as the project evolves for their resume and other profiles online.
 
 - Your Name
 - Github Username
@@ -153,10 +165,6 @@ Please collect the following content for your profiles. This content doesn't hav
 - Twitter URL
 - LinkedIn URL
 - Education
-
-You can submit this via a GIST URL.
-
-For example: https://gist.github.com/aviflombaum/015ee85d38e9009e012f
 
 ## Resources
 Here are some Git workflow tutorials you can check out.  Don't get bogged down in Git!
