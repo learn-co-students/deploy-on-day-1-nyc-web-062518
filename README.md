@@ -91,10 +91,10 @@ The structure of this project looks something like this:
 ### Group Logistics
 * Figure out who is going to write whose profile.
 
-![fork](/img/fork.png)
+* ![fork](/img/fork.png)
 * Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table. 
 
-![clone](/img/clone.png)
+* ![clone](/img/clone.png)
 * Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
 
 ### Individual Instructions
@@ -154,7 +154,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 ## Next Steps
 
-** IMPORTANT: Make sure that you attend the lecture on Git in the afternoon before continuing **
+**IMPORTANT: Make sure that you attend the lecture on Git in the afternoon before continuing**
 
 ### Group Logistics
 
@@ -185,16 +185,16 @@ other content here
 >>>>>>> zoe-perez
 ```
 
-Just decide which one you want to keep or if you want to keep both. Then delete the parts you don't want and delete the <<<<HEAD, ======, and >>>>> parts. 
+Just decide which one you want to keep or if you want to keep both. Then delete the parts you don't want and delete the `<<<<HEAD`, `======`, and `>>>>>` parts. 
 
 Remember, if you have multiple files with merge conflicts, you'll have to repeat this process with each file. Once you're done selecting which code to retain, `git add` and `git commit` these changes. Now when you type `git status`, your terminal should not display "You have unmerged paths."
 
 ## Final Steps
 
-![branches](/img/branches.png)
-Once every profile is on a single branch that is hosted remotely, it's time to submit a pull request on the original repo. 
+Once every profile is on a single branch that is hosted remotely, it's time to submit a pull request on the original repo. Note: This pull request will be on behalf of your entire table.
+
 * The first step is to go to the forked repo. 
-* The next step is to navigate to the branch with all three or four profiles. You can do this by clicking on the "branch:master ▼" dropdown and select the name of the branch that has all the profiles. 
+* The next step is to navigate to the branch with all three or four profiles. You can do this by clicking on the ![branches](/img/branches.png) dropdown and select the name of the branch that has all the profiles. 
 * From this new view, click on ![pull request](/img/pull-request.png) on the right-hand menu. The green button with two arrows that looks like this ![green pull request](/img/green-button.png) will also work.
 * On this new page, click the green button that says "New pull request". This will take you to a form.
 Fill out the form and click "Submit".
