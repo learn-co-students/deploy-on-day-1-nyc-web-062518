@@ -1,38 +1,97 @@
 ---
   tags: deploy, team, git, pull request
   languages: html, css
+  resources:
 ---
-#:confetti_ball: :bowtie: Welcome to The Flatiron School! :tada: :fireworks:
 
-# Deploy on Day One!
+# Deploy on Day One
 
-### Skills: HTML, CSS, Git, deploying
+## History
 
-## Instructions
+Welcome to Flatiron! Every semester, a student index page is created. It looks something like [this](http://students.flatironschool.com/). Links from this page go to individual profiles, which look like [this](http://students.flatironschool.com/students/lauraconwill.html).
 
-Here is your first assignment! You're going to add yourself to the student section of [FlatironSchool.com](http://students.flatironschool.com) and create your own [profile](http://students.flatironschool.com/students/tiffany_peon_profile.html) page. 
+## Assignment
 
-You will be working in a team of 4 people.  At the end of the project, you'll have 4 new html files in the students directory one for each student.
+Your assignment is to create a student profile for someone sitting at your table. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else. If you're sitting at a table of four, it might be easiest to pair up. If you're sitting at a table of three, it might be easiest to create the profile of the student clockwise to you. If you're sitting at a...well you get the picture.
 
-## Deliverable:
+Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" The answer is no. You're just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. No need to freak out. Calm down! Seriously, you're making the rest of us nervous!!!
 
-1. yourprofile.html with a layout and content.
-2. A git branch named `yourname-profile` along with a pull request to merge your branch into `master`. If you'd like to make things easier, you can also have a team branch `teamname-profiles` and just one pull request to merge that branch into `master`.
+## Structure
 
-## FAQ
+The structure of this project looks something like this:
 
-- Am I making a webapp?
-  - NO
-- Do I need rails?
-  - NO
-- Is there any reason I should be on Hacker News Today?
-  - NO
-- Do I need to change the index page?
-  - The styles shouldn't change, the content of the HTML should
+```text
+├── README.md
+├── css
+│   ├── css style sheets
+│   └── fonts
+│       └── font files
+├── img
+│   ├── lots of images here
+│   ├── stripe_bg.gif
+│   └── students
+│       ├── student_name_background.jpg
+│       ├── student_name_index.jpg
+│       └── student_name_profile.jpg
+├── index.html
+├── js
+│   └── javascipt files
+└── students
+    └── student_name.html
+```
 
-You can use the following link as a reference [students index](http://students.flatironschool.com/)
+### Files you will need to alter:
+* The only file you'll alter is `index.html`. 
 
-Check out different students profiles, be creative, and don't copy exactly.
+### Files you will need to add:
+* Add three pictures to the `img/students` folder (they can be jpg or png files):
+  * A background picture
+  * A picture for the index page
+  * A picture for the profile page
+* Add one HTML file to the `students/` folder. Use the `student_name.html` for reference. In fact, feel free to copy as much of the HTML from `student_name.html` into the new file you've created.
+
+## Getting Started
+
+### Group Logistics
+* Figure out who is going to write whose profile.
+
+![fork](/img/fork.png)
+* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table. 
+
+![clone](/img/clone.png)
+* Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
+
+### Individual Instructions
+
+* Now that you have the repo, you'll want to get into it. 
+  * Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? When you type `pwd` into your terminal and the last part of the text that gets returned is `deploy-on-day-1...` you're in the right place.
+  * ***NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.***
+
+* Take a look at `index.html` and `students/student_name.html` in the browser.
+  * You can do this many ways but one is by opening finder and right clicking on index.html, for example. Then click on "Open with" then the name of your favorite browser.
+
+* From the root directory, [checkout a new branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Branching). This new branch's name should be the name of the student whose profile you're going to create.  
+  * For instance, the branch would be titled `zoe-perez`.
+
+* If you haven't already, switch to the branch you created. To make sure you're where you need to be, type `git branch` in your terminal. It should return the name of your assigned student emphazised with an asterisk and master.
+  * For instance, typing `pwd` in the terminal would return:
+
+```text
+  master
+* zoe-perez
+```
+
+* In this new branch, make a new HTML file in the `students/` folder. The file name should be the name of the student you're creating the profile for. Use the file `student_name.html` to see an example of what a profile's HTML could look like.
+  * For instance, we would create a file `zoe_perez.html` in the main `students` folder.
+
+* Still in this branch you created, add the three photos detailed above to the `img/students` folder. The student you're writing the profile for may have to email you their desired pictures or send you links to them, etc.
+  * For instance, we would add a the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
+
+* Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
+
+* Once you're happy with the profile you've created and the changes you've made to the index page, type `git status`. The the file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section
+
+
 Please read/skim this whole document before starting. Here's a few helpful tips...
 
 - You'll have ~3hrs to complete this.
