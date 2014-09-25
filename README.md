@@ -123,7 +123,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 * Still in this branch you created, add the three photos detailed above to the `img/students` folder. The student you're writing the profile for may have to email you their desired pictures or send you links to them, etc.
   * For instance, we would add the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
-  * File endings are case senstive. When adding an "<image>" tag, make sure that the image source is identical to the name of the image file.
+  * File endings are case senstive. When adding an <image> tag, make sure that the image source is identical to the name of the image file.
 
 * Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
 
