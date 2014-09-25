@@ -1,7 +1,7 @@
 ---
 tags: deploy, team, git, pull request
 languages: html, css
-resources:
+resources: 13
 ---
 
 # Deploy on Day One
@@ -222,7 +222,7 @@ Note: From now on, most assignments will be completed in a group but submitted i
 
 ## Issues
 
-A common issue is not being able to authenticate with github. You need to use HTTPS/SSH correctly when cloning the repository in order to be authenticated with GitHub. Checkout and follow:
+A common issue is not being able to authenticate with GitHub. You need to use HTTPS/SSH correctly when cloning the repository in order to be authenticated with GitHub. Checkout and follow:
 
 * [Setting Up Git](https://help.github.com/articles/set-up-git)
 * [HTTPS Cloning Errors](https://help.github.com/articles/https-cloning-errors)
