@@ -1,7 +1,7 @@
 ---
 tags: deploy, team, git, pull request
 languages: html, css
-resources: 13
+resources:
 ---
 
 # Deploy on Day One
@@ -28,7 +28,7 @@ Welcome to Flatiron! Every semester, a student index page is created. It looks s
 
 Your assignment is to create a student profile for someone sitting at your table. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else. If you're sitting at a table of four, it might be easiest to pair up. If you're sitting at a table of three, it might be easiest to create the profile of the student clockwise to you. If you're sitting at a...well you get the picture.
 
-Now if you're anything like me, you might be freaking out and wondering, "Am I making a web app?!?!" The answer is no. You're just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. No need to freak out. Calm down! Seriously, you're making the rest of us nervous!!!
+Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" The answer is no. You're just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. No need to freak out. Calm down! Seriously, you're making the rest of us nervous!!!
 
 You'll have about three hours to complete the first section of this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
 
@@ -122,7 +122,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
   * For instance, we would create a file `zoe_perez.html` in the main `students` folder.
 
 * Still in this branch you created, add the three photos detailed above to the `img/students` folder. The student you're writing the profile for may have to email you their desired pictures or send you links to them, etc.
-  * For instance, we would add a the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
+  * For instance, we would add the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
 
 * Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
 
