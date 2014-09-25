@@ -8,17 +8,17 @@ resources:
 
 ## Contents
 
-|Section                          |
-|---------------------------------|
-|History(#history)                |
-|Assignment(#assignment)          |
-|Requirements(#requirements)      |
-|File Structure(#structure)       |
-|Getting Started(#getting-started)|
-|Next Steps(#next-steps)          |
-|Final Steps(#final-steps)        |
-|Resources(#resources)            |
-|Issues(#issues)                  |
+|Section                            |
+|-----------------------------------|
+|[History](#history)                |
+|[Assignment](#assignment)          |
+|[Requirements](#requirements)      |
+|[File Structure](#structure)       |
+|[Getting Started](#getting-started)|
+|[Next Steps](#next-steps)          |
+|[Final Steps](#final-steps)        |
+|[Resources](#resources)            |
+|[Issues](#issues)                  |
 
 ## History
 
