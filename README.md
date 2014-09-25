@@ -149,8 +149,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 * To confirm this push worked you can do two things:
   * Type ```git branch -a``` which will show the remote branch on github.com you just created when you pushed. 
-  * ![branches](/img/branches.png)
-  * You could also go to the url of the forked repo. Notice the section that says "branch:master ▼". You should be able to click on that and select the name of the branch you've been working on from the dropdown.
+  * You could also go to the url of the forked repo. Notice the section that looks like ![branches](/img/branches.png). You should be able to click on that arrow and to see a dropdown. From this dropdown, select the name of the branch you've been working on.
 
 ## Next Steps
 
