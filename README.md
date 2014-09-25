@@ -203,14 +203,14 @@ Note: From now on, most assignments will be completed in a group but submitted i
 ## Resources
 
 * Git Step Resources
-  * Forking a Repo
-  * Cloning a Repo
-  * Branching
-  * Adding
-  * Committing Changes
-  * Pushing to Remote Branches
-  * Merging Branches
-  * Submitting a Pull Request
+  * [Forking a Repo](https://help.github.com/articles/fork-a-repo)
+  * [Cloning a Repo](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository)
+  * [Branching](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Branching)
+  * [Adding](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files)
+  * [Committing Changes](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes)
+  * [Pushing to Remote Branches](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes)
+  * [Merging Branches](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Merging)
+  * [Submitting a Pull Request](https://help.github.com/articles/using-pull-requests#sending-the-pull-request)
 * Git Workflow Resources
   * [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
   * [Git Workflow](https://github.com/diaspora/diaspora/wiki/Git-Workflow)
