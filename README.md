@@ -99,14 +99,11 @@ The structure of this project looks something like this:
 
 ### Individual Instructions
 
-* Now that you have the repo, you'll want to get into it. 
-  * Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? When you type `pwd` into your terminal and the last part of the text that gets returned is `deploy-on-day-1...` you're in the right place.
-  * **NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.**
+Now that you have the repo, you'll want to get into it. Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? When you type `pwd` into your terminal and the last part of the text that gets returned is `deploy-on-day-1...` you're in the right place. **NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.**
 
-* Take a look at `index.html` and `students/student_name.html` in the browser.
-  * You can do this many ways but one is by opening finder and right clicking on index.html, for example. Then click on "Open with" then the name of your favorite browser.
+Take a look at `index.html` and `students/student_name.html` in the browser. You can do this many ways but one is by opening finder and right clicking on index.html. Then click on "Open with" then the name of your favorite browser.
 
-
+#### Make a New Branch
 
 * From the root directory, [checkout a new branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Branching). This new branch's name should be the name of the student whose profile you're going to create.  
   * For instance, the branch would be titled `zoe-perez`.
@@ -120,6 +117,8 @@ The structure of this project looks something like this:
 * zoe-perez
 ```
 
+#### Add Profile
+
 * In this new branch, make a new HTML file in the `students/` folder. The file name should be the name of the student you're creating the profile for. Use the file `student_name.html` to see an example of what a profile's HTML could look like.
   * For instance, we would create a file `zoe_perez.html` in the main `students` folder.
 
@@ -127,6 +126,8 @@ The structure of this project looks something like this:
   * For instance, we would add a the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
 
 * Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
+
+#### Stage and Commit Changes
 
 * Once you're happy with the profile you've created and the changes you've made to the index page, type [git status](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files). The the file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section. 
 
@@ -139,6 +140,7 @@ The structure of this project looks something like this:
 |origin |https://github.com/table-member's-github-name/deploy-on-day-1...git| (fetch) |
 |origin |https://github.com/table-member's-github-name/deploy-on-day-1...git| (push)  |
 
+#### Push Up Your Branch 
 
 * Now it's time to [push](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes) to a remote branch. This remote branch doesn't exist yet, you're going to create it by pushing. 
   * **NOTE: Do not push to master. Do not type anything that contains the word master!**
