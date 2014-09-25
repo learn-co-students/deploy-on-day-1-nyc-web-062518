@@ -64,7 +64,6 @@ The structure of this project looks something like this:
 │       └── font files
 ├── img
 │   ├── lots of images here
-│   ├── stripe_bg.gif
 │   └── students
 │       ├── student_name_background.jpg
 │       ├── student_name_index.jpg
