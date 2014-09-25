@@ -89,7 +89,11 @@ The structure of this project looks something like this:
 
 * Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
 
-* Once you're happy with the profile you've created and the changes you've made to the index page, type `git status`. The the file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section
+* Once you're happy with the profile you've created and the changes you've made to the index page, type [git status](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files). The the file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section. 
+
+* You'll want to [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files) then [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes) these changes with a message.
+
+* Once you have added and commited properly, when you type `git status`, you should see "nothing to commit, working directory clean"
 
 
 Please read/skim this whole document before starting. Here's a few helpful tips...
