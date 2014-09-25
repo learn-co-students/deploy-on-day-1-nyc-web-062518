@@ -1,7 +1,7 @@
 ---
 tags: deploy, team, git, pull request
 languages: html, css
-resources: 13
+resources:
 ---
 
 # Deploy on Day One
@@ -64,7 +64,6 @@ The structure of this project looks something like this:
 │       └── font files
 ├── img
 │   ├── lots of images here
-│   ├── stripe_bg.gif
 │   └── students
 │       ├── student_name_background.jpg
 │       ├── student_name_index.jpg
@@ -84,7 +83,7 @@ The structure of this project looks something like this:
   * A background picture
   * A picture for the index page
   * A picture for the profile page
-* Add one HTML file to the `students/` folder. Use the `student_name.html` for reference. In fact, feel free to copy as much of the HTML from `student_name.html` into the new file you've created.
+* Add one HTML file to the `students/` folder. Use the `student_name.html` for reference. In fact, feel free to copy as much of the HTML from `student_name.html` into the new file you've created (just don't rename / override that file, as that will cause you some git headaches).
 
 ## Getting Started
 
@@ -222,7 +221,7 @@ Note: From now on, most assignments will be completed in a group but submitted i
 
 ## Issues
 
-A common issue is not being able to authenticate with GitHub. You need to use HTTPS/SSH correctly when cloning the repository in order to be authenticated with GitHub. Checkout and follow:
+A common issue is not being able to authenticate with github. You need to use HTTPS/SSH correctly when cloning the repository in order to be authenticated with GitHub. Checkout and follow:
 
 * [Setting Up Git](https://help.github.com/articles/set-up-git)
 * [HTTPS Cloning Errors](https://help.github.com/articles/https-cloning-errors)
