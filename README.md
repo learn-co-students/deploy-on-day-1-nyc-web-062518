@@ -1,7 +1,7 @@
 ---
-  tags: deploy, team, git, pull request
-  languages: html, css
-  resources:
+tags: deploy, team, git, pull request
+languages: html, css
+resources:
 ---
 
 # Deploy on Day One
@@ -12,9 +12,13 @@
 |---------------------------------|
 |History(#history)                |
 |Assignment(#assignment)          |
+|Requirements(#requirements)      |
 |File Structure(#structure)       |
 |Getting Started(#getting-started)|
 |Next Steps(#next-steps)          |
+|Final Steps(#final-steps)        |
+|Resources(#resources)            |
+|Issues(#issues)                  |
 
 ## History
 
@@ -27,6 +31,25 @@ Your assignment is to create a student profile for someone sitting at your table
 Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" The answer is no. You're just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. No need to freak out. Calm down! Seriously, you're making the rest of us nervous!!!
 
 You'll have about three hours to complete the first section of this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
+
+## Requirements
+
+Please collect the following content from your assigned student for their profile. This content doesn't have to be finalized, but you need something. They'll be using this content as the project evolves for their resume and other profiles online.
+
+- Your Name
+- Github Username
+- Blog Url (if you don't already have a blog it will be githubusername.github.io)
+- Tagline
+- Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
+- Treehouse Account
+- CoderWall Account
+- CodeSchool Account
+- Favorite Websites
+- Previous Work Experience
+- Short Bio
+- Twitter URL
+- LinkedIn URL
+- Education
 
 ## Structure
 
@@ -82,8 +105,11 @@ The structure of this project looks something like this:
 * Take a look at `index.html` and `students/student_name.html` in the browser.
   * You can do this many ways but one is by opening finder and right clicking on index.html, for example. Then click on "Open with" then the name of your favorite browser.
 
+
+
 * From the root directory, [checkout a new branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Branching). This new branch's name should be the name of the student whose profile you're going to create.  
   * For instance, the branch would be titled `zoe-perez`.
+  * Note: The `master` branch of a project is NEVER a place to do any work. `master` is considered the build and you never break the build. So make sure you are not working or committing to the `master` branch.
 
 * If you haven't already, switch to the branch you created. To make sure you're where you need to be, type `git branch` in your terminal. It should return the name of your assigned student emphazised with an asterisk and master.
   * For instance, typing `pwd` in the terminal would return:
@@ -118,9 +144,7 @@ The structure of this project looks something like this:
   * You're going to push to a branch that is the same name as your local branch.
     * For instance, if we're on the branch zoe-perez, we're going to push to zoe-perez.
 
-
 * To confirm this push worked you can do two things:
-
   * Type ```git branch -a``` which will show the remote branch on github.com you just created when you pushed. 
   * ![branches](/img/branches.png)
   * You could also go to the url of the forked repo. Notice the section that says "branch:master ▼". You should be able to click on that and select the name of the branch you've been working on from the dropdown.
@@ -137,6 +161,33 @@ Think about the best way to merge all the branches together. Should one person d
 
 ### Merge Conflicts
 
+When [merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Merging), [merge conflicts](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts) can happen. Generally they look like:
+
+```text
+> git branch
+  └── master
+> git merge zoe-perez
+  └── Auto-merging index.html
+  └── CONFLICT (content): Merge conflict in index.html
+  └── Automatic merge failed; fix conflicts and then commit the result.
+```
+
+This just means that you will have to open the files where there are merge conflicts, in this case `index.html`, and find the part that looks like:
+
+```text
+<<<<<<< HEAD
+content here
+=======
+other content here
+>>>>>>> zoe-perez
+```
+
+Just decide which one you want to keep or if you want to keep both. Then delete the parts you don't want and delete the <<<<HEAD, ======, and >>>>> parts. 
+
+Remember, if you have multiple files with merge conflicts, you'll have to repeat this process with each file. Once you're done selecting which code to retain, `git add` and `git commit` these changes. Now when you type `git status`, your terminal should not display "You have unmerged paths."
+
+## Final Steps
+
 ![branches](/img/branches.png)
 Once every profile is on a single branch that is hosted remotely, it's time to submit a pull request on the original repo. 
 * The first step is to go to the forked repo. 
@@ -145,52 +196,33 @@ Once every profile is on a single branch that is hosted remotely, it's time to s
 * On this new page, click the green button that says "New pull request". This will take you to a form.
 Fill out the form and click "Submit".
 
-Congratulations, you've completed your first Flatiron Assignment. From now on, most assignments will be completed in a group but submitted individually instead of having a table fork an assignment, each student will fork the assignment. This will minimize the merge conflicts.
+Congratulations, you've completed your first assignment! 
 
-## Profile requirements
-
-Please collect the following content from your assigned student for their profile. This content doesn't have to be finalized, but you need something. They'll be using this content as the project evolves for their resume and other profiles online.
-
-- Your Name
-- Github Username
-- Blog Url (if you don't already have a blog it will be githubusername.github.io)
-- Tagline
-- Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
-- Treehouse Account
-- CoderWall Account
-- CodeSchool Account
-- Favorite Websites
-- Previous Work Experience
-- Short Bio
-- Twitter URL
-- LinkedIn URL
-- Education
+Note: From now on, most assignments will be completed in a group but submitted individually. This means that instead of having a **table** fork an assignment, **each student** will fork the assignment, minimizing the merge conflicts you'll encounter in the future.
 
 ## Resources
-Here are some Git workflow tutorials you can check out.  Don't get bogged down in Git!
 
-- http://scottchacon.com/2011/08/31/github-flow.html
-
-- https://github.com/diaspora/diaspora/wiki/Git-Workflow
-
-- http://mettadore.com/analysis/a-simple-git-rebase-workflow-explained/
-
-- http://zachholman.com/talk/how-github-uses-github-to-build-github
-
-- https://openshift.redhat.com/community/wiki/github-workflow-for-submitting-pull-requests
+* Git Step Resources
+  * Forking a Repo
+  * Cloning a Repo
+  * Branching
+  * Adding
+  * Committing Changes
+  * Pushing to Remote Branches
+  * Merging Branches
+  * Submitting a Pull Request
+* Git Workflow Resources
+  * [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+  * [Git Workflow](https://github.com/diaspora/diaspora/wiki/Git-Workflow)
+  * [Git Rebase Workflow Explained](http://mettadore.com/analysis/a-simple-git-rebase-workflow-explained/)
+  * [How GitHub uses GitHub to Build GitHub](http://zachholman.com/talk/how-github-uses-github-to-build-github)
+  * [GitHub Workflow for Submitting Pull Requests](https://openshift.redhat.com/community/wiki/github-workflow-for-submitting-pull-requests)
 
 ## Issues
 
-A common issue is not being able to authenticate with github. You need to use https/ssh correctly when cloning the repository in order to be authenticated with github. Checkout and follow:
+A common issue is not being able to authenticate with github. You need to use HTTPS/SSH correctly when cloning the repository in order to be authenticated with GitHub. Checkout and follow:
 
-- [setup git](https://help.github.com/articles/set-up-git)
-- [https cloning errors](https://help.github.com/articles/https-cloning-errors)
-- [setting up ssh](https://help.github.com/articles/generating-ssh-keys)
+* [Setting Up Git](https://help.github.com/articles/set-up-git)
+* [HTTPS Cloning Errors](https://help.github.com/articles/https-cloning-errors)
+* [Setting Up SSH](https://help.github.com/articles/generating-ssh-keys)
 
-## A note about `master` branch
-
-The `master` branch of a project is NEVER a place to do any work. `master` is considered the build and you never break the build. So make sure you are not working or committing to the `master` branch.
-
-**We highly recommend getting ssh setup correctly**
-
-### Good luck and have fun!
