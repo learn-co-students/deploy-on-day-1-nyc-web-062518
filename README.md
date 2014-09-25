@@ -36,20 +36,21 @@ You'll have about three hours to complete the first section of this lab. Use tha
 
 Please collect the following content from your assigned student for their profile. This content doesn't have to be finalized, but you need something. They'll be using this content as the project evolves for their resume and other profiles online.
 
-- Your Name
-- Github Username
-- Blog Url (if you don't already have a blog it will be githubusername.github.io)
-- Tagline
-- Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
-- Treehouse Account
-- CoderWall Account
-- CodeSchool Account
-- Favorite Websites
-- Previous Work Experience
-- Short Bio
-- Twitter URL
-- LinkedIn URL
-- Education
+* Name
+* Github Username
+* Blog Url (if they don't already have a blog it will be their-github-username.github.io)
+* Tagline
+* Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
+* Background Picture
+* Treehouse Account
+* CoderWall Account
+* CodeSchool Account
+* Favorite Websites
+* Previous Work Experience
+* Short Bio
+* Twitter URL
+* LinkedIn URL
+* Education
 
 ## Structure
 
