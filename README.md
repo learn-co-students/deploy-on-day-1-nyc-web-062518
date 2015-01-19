@@ -153,8 +153,6 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 ## Next Steps
 
-**IMPORTANT: Make sure that you attend the lecture on Git in the afternoon before continuing**
-
 ### Group Logistics
 
 Since your table is going to submit a pull request with all of your tables profiles, you'll need to merge every branch that your table created into a single branch. This branch will contain every profile from your table. The process of merging these branches will probably result in merge conflicts in `index.html` and possibly elsewhere. That's totally okay and expected!
