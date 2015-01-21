@@ -91,7 +91,8 @@ The structure of this project looks something like this:
 * Figure out who is going to write whose profile.
 
 * ![fork](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/fork.png)
-* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table. 
+* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table.
+* The person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
 
 * ![clone](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/clone.png)
 * Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
