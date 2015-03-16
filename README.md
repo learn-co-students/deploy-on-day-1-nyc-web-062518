@@ -90,10 +90,11 @@ The structure of this project looks something like this:
 ### Group Logistics
 * Figure out who is going to write whose profile.
 
-* ![fork](/img/fork.png)
-* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table. 
+* ![fork](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/fork.png)
+* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table.
+* The person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
 
-* ![clone](/img/clone.png)
+* ![clone](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/clone.png)
 * Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
 
 ### Individual Instructions
@@ -149,11 +150,9 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 * To confirm this push worked you can do two things:
   * Type ```git branch -a``` which will show the remote branch on github.com you just created when you pushed. 
-  * You could also go to the url of the forked repo. Notice the section that looks like ![branches](/img/branches.png). You should be able to click on that arrow and to see a dropdown. From this dropdown, select the name of the branch you've been working on.
+  * You could also go to the url of the forked repo. Notice the section that looks like ![branches](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/branches.png). You should be able to click on that arrow and to see a dropdown. From this dropdown, select the name of the branch you've been working on.
 
 ## Next Steps
-
-**IMPORTANT: Make sure that you attend the lecture on Git in the afternoon before continuing**
 
 ### Group Logistics
 
@@ -193,8 +192,8 @@ Remember, if you have multiple files with merge conflicts, you'll have to repeat
 Once every profile is on a single branch that is hosted remotely, it's time to submit a pull request on the original repo. Note: This pull request will be on behalf of your entire table.
 
 * The first step is to go to the forked repo. 
-* The next step is to navigate to the branch with all three or four profiles. You can do this by clicking on the ![branches](/img/branches.png) dropdown and select the name of the branch that has all the profiles. 
-* From this new view, click on ![pull request](/img/pull-request.png) on the right-hand menu. The green button with two arrows that looks like this ![green pull request](/img/green-button.png) will also work.
+* The next step is to navigate to the branch with all three or four profiles. You can do this by clicking on the ![branches](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/branches.png) dropdown and select the name of the branch that has all the profiles. 
+* From this new view, click on ![pull request](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/pull-request.png) on the right-hand menu. The green button with two arrows that looks like this ![green pull request](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/green-button.png) will also work.
 * On this new page, click the green button that says "New pull request". This will take you to a form.
 Fill out the form and click "Submit".
 
