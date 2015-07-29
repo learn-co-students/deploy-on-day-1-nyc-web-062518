@@ -1,8 +1,4 @@
----
-tags: deploy, team, git, pull request
-languages: html, css
-resources:
----
+
 
 # Deploy on Day One
 
