@@ -218,7 +218,7 @@ Note: From now on, most assignments will be completed in a group but submitted i
   * [How GitHub uses GitHub to Build GitHub](http://zachholman.com/talk/how-github-uses-github-to-build-github)
   * [GitHub Workflow for Submitting Pull Requests](https://openshift.redhat.com/community/wiki/github-workflow-for-submitting-pull-requests)
 * Deploying to GitHub Pages
-    * [Documentation for how to deploy to GitHub Pages](https://pages.github.com/)
+    * [Documentation for how to deploy to GitHub Pages (choose "Project Site" rather than "User or Organization Site")](https://pages.github.com/)
 
 ## Issues
 
