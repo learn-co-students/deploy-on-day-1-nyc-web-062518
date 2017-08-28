@@ -155,7 +155,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 ### Group Logistics
 
-Since your table is going to be deploying a single web page with all of your tables profiles, you'll need to merge every branch that your table created into a single branch. This branch will contain every profile from your table. The process of merging these branches will probably result in merge conflicts in `index.html` and possibly elsewhere. That's totally okay and expected!
+Since your table is going to be deploying a single web page with all of your tables profiles, you'll need to merge every branch that your table created into a single branch. This branch will contain every profile from your table. The process of merging these branches may result in merge conflicts in `index.html` and possibly elsewhere. That's totally okay and expected!
 
 Think about the best way to merge all the branches together. Should one person do it? Should everyone do it in order? Should you merge into a prexisting branch, like `master`, or create a totally new branch? You might be wondering what the best answer is but there isn't a "best answer", just decide on a strategy and go for it!
 
