@@ -87,8 +87,11 @@ The structure of this project looks something like this:
 * Figure out who is going to write whose profile.
 
 * ![fork](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/fork.png)
-* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo. This person should then send the link to their fork to everyone sitting at their table.
-* The person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
+* Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo.
+* Git clone the forked repo to that person's machine. Ensure that you have the correct amount of <li></li> elements (surrounded by the 'begin student' and 'end student' comments) in your index.html. We have provided four by default, but you should either delete or copy/paste to reflect the amount of people in your group. Assign individuals to specific <li></li> elements (order matters!).
+* Once the count is accurate, Git add, commit, and push to your remote master.
+* Next, the person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
+* Following, this person should then send the link to their fork to everyone sitting at their table.
 
 * ![clone](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/clone.png)
 * Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
@@ -122,11 +125,11 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
   * For instance, we would add the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
   * File endings are case senstive. When adding an \<image\> tag, make sure that the image source is identical to the name of the image file.
 
-* Once you've completed the profile, open up `index.html`. Use the prexisting template as a model and add a section for your fellow student.
+* Once you've completed the profile, open up `index.html`. Use the assigned <li></li> element as a template and add fill it out for your fellow classmate.
 
 #### Stage and Commit Changes
 
-* Once you're happy with the profile you've created and the changes you've made to the index page, type [git status](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files). The the file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section.
+* Once you're happy with the profile you've created and the changes you've made to the index page, type [git status](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files). The file you've altered, index.html, should appear in the "Tracked Files" section and the files you've created should appear in the "Untracked Files" section.
 
 * You'll want to [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files) then [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes) these changes with a message.
 
