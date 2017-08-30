@@ -88,8 +88,8 @@ The structure of this project looks something like this:
 
 * ![fork](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/fork.png)
 * Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo.
-* Git clone the forked repo to that person's machine. Ensure that you have the correct amount of ```<li></li>``` elements (surrounded by the 'begin student' and 'end student' comments) in your index.html. We have provided four by default, but you should either delete or copy/paste to reflect the amount of people in at your table. Assign individuals to specific ```<li></li>``` elements (order matters!).
-* Once the count is accurate, Git [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files), [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes), and [push](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes) to your remote master.
+* Git clone the forked repo to that person's machine. Ensure that your index.html file has the same amount of ```<li></li>``` elements (surrounded by the 'begin student' and 'end student' comments) as you have persons on your team. We have provided four by default, but you should either remove these or copy/paste to reflect the correct amount of people on your team. Assign individuals to specific ```<li></li>``` elements (order matters!).
+* Once the count is accurate, the person who forked the repo must git [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files), [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes), and [push](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes) to your remote master.
 * Next, the person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
 * Following, this person should then send the link to their fork to everyone sitting at their table.
 
@@ -125,7 +125,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
   * For instance, we would add the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
   * File endings are case senstive. When adding an \<image\> tag, make sure that the image source is identical to the name of the image file.
 
-* Once you've completed the profile, open up `index.html`. Use the assigned ```<li></li>``` element as a template and add fill it out for your fellow classmate.
+* Once you've completed the profile, open up `index.html`. Use the assigned ```<li></li>``` element as a template and fill it out for your fellow classmate.
 
 #### Stage and Commit Changes
 
